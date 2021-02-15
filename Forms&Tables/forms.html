@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <div>
+            <label for="name-input-field">Name:</label>
+            <input type="text" id="name-input-field" value="Some name" name="name">
+        </div>
+        <div>
+            <label for="password-input-field">Password:</label>
+            <input type="password" id="password-input-field" placeholder="Password:" name="password">
+        </div>
+        <div>
+            <input type="hidden" name="checkbox"value="0">
+            <input type="checkbox" id="agree-checkbox" name = checkbox value="1">
+            <label for="agree-checkbox" >Agree therms and conditions</label>
+
+        </div>
+        <div>
+            <input type="checkbox" id="newsletter-checkbox" checked>
+            <label for="newsletter-checkbox">Get the newsletter</label>
+
+        </div>
+<div>
+    <h5>Gender:</h5>
+    <div>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Female</label>
+    </div>
+    <div>
+        <input type="radio" id="gender-male"name="gender" value="male">
+        <label for="gender-male">Male</label>
+    <div>
+    <div>
+        <input type="radio" id="gender-i-dont-know"name="gender"checked value="dont-know">
+        <label for="gender-i-dont-know">I don't know</label>
+    </div>
+    <div>
+        <input type="radio" id="gender-not-gonna-tell-u"name="gender" value="not-gonna-tell">
+        <label for="gender-not-gonna-tell-u">Not gonna tell you</label>
+    </div>
+    
+<div>
+<label for="country-select">Country:</label>
+<select id="country-select" name="country">
+    <option value="">Select one..</option>
+    <optgroup label= "Baltics">
+        <option selected value="LV">Latvia</option>
+        <option value="LT">Lithuania</option>
+        <option value="EE">Estonia</option>
+    </optgroup>
+    <optgroup label= "Other">
+    <option value="ZB">Zimbabve</option>
+    <option value="NR">Narnia</option>
+</optgroup>
+</select>
+</div>
+
+
+<div>
+<label for="coment-text">Comment:</label>
+<textarea id="coment-text" cols="30" rows="10"name = "coment" >
+    text text text text text text text text
+     text text text 
+     text
+
+</textarea>
+    
+
+</div>
+
+</div>
+
+<div>
+<input type="submit" value="Submit!!!">
+<button>Foo</button>
+<button>
+    <em>Foo</em>
+</button>
+</div>
+
+    </form>
+</body>
+
+</html>
+
+
+<!--
+    kebab-case
+    snake_case
+    camelCase
+    PascalCase
+-->
